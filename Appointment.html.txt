@@ -1,0 +1,21 @@
+<section id="appointment" class="appointment">
+    <h1 class="heading">Book an Appointment</h1>
+    <h3 class="title">Schedule your visit with ease</h3>
+
+    <div class="form-container">
+      <input type="text" placeholder="Full Name" name="name" id="appointment-name" />
+      <input type="email" placeholder="Email Address" name="email" id="appointment-email" />
+      <input type="tel" placeholder="Phone Number" name="phone" id="appointment-phone" />
+      <select id="appointment-department">
+        <option value="">Select Department</option>
+        <option value="Cardiology">Cardiology</option>
+        <option value="Dermatology">Dermatology</option>
+        <option value="Neurology">Neurology</option>
+        <option value="Neurology">Medicine</option>
+        <option value="Neurology">ENT</option>
+        </select>
+      <input type="date" name="date" id="appointment-date" />
+      <textarea name="message" cols="30" rows="10" id="appointment-message" placeholder="Additional Notes"></textarea>
+      <input type="submit" value="Book Appointment" />
+    </div>
+  </section>
